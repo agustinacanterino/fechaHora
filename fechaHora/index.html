@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesFechaHora.css">
+    <!-- LINK TUTORIAL → https://www.youtube.com/watch?v=IowfM4bkyb8 -->
+    <title>Fecha y Hora</title>
+</head>
+<body>
+<h1>Fecha & Hora</h1>
+
+<div class="wrap">
+    <div class="widget">
+        <!-- ACA VA LA FECHA-->
+        <div class="fecha">
+            <p id="diaSemana" class="diaSemana"> </p>
+            <p id="dia" class="dia"></p>
+                <p>De</p>
+            <p id="mes" class="mes"></p>
+                <p>Del</p>
+    
+            <p id="year" class="year"></p>
+        </div>
+        
+
+        <!-- ACA VA LA HORA-->
+        <div class="reloj">
+            <p id="horas" class="horas">
+                <p id="dosPuntitos">:</p>
+            </p>
+
+            <p id="minutos" class="minutos">
+                <p></p>
+            </p>
+
+            <div class="cajaSegundos">
+                <p id="amPm" class="amPm"></p>
+                <p id="segundos" class="segundos"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div>
+        <img src="relojcute.png" id="relojCute" alt="">
+    </div>
+    
+    <script src="scriptFechaHora.js"></script>
+</body>
+</html>

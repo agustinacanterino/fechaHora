@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url(bg.jpg);
+    background-size: cover; 
+    color: #ffff;
+    font-size: 16px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+    background: rgba(0, 0, 0, 0.2);
+}
+.wrap{
+    
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+    
+}
+.widget{
+    
+    margin: 2em;
+    display: grid;
+    
+}
+
+
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+    place-self: center;
+}
+
+.reloj {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+    place-self: center;
+}
+
+.reloj .cajaSegundos{
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .amPm {
+    font-size: 2rem;
+    display: block;
+}
+
+#dosPuntitos {
+    margin-left: 25px;
+    
+}
+
+div > img {
+    display: flex;
+    justify-content: center;
+}
+#relojCute {
+    width: 140px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
